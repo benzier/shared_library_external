@@ -2,7 +2,7 @@ name: create_repo
 description: sample template
 
 body:
-  - type: markdow
+  - type: markdown
     attributes: 
       value: |
         # sample template
