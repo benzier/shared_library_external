@@ -30,4 +30,4 @@ jobs:
             owner: context.repo.owner,
             repo: context.repo.repo,
           })
-          console.log(JSON.stringfy(issue))
+          console.log(JSON.stringify(issue))
