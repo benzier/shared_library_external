@@ -25,7 +25,7 @@ jobs:
         retries: 3
         retry-exempt-status-codes: 400,401
         script: |
-          var issue = github.rest.issues.get({
+          const issue = await github.rest.issues.get({
             issue_number: context.issue.number,
             owner: context.repo.owner,
             repo: context.repo.repo,
